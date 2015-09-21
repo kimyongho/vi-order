@@ -1,0 +1,164 @@
+vi order word
+
+w,W,b,B :forward word , back word
+
+e,E :Words ending
+
+),( :The beginning of the next sentence,The beginning of the previous sentence
+
+},{ :The beginning of the following paragraphs,The beginning of the previous paragraph
+
+]],[[ :The following section begins,Previous Section start
+
+RETURN :GO to the first non-whitespace character in the next line
+
+O,$ :The first position in the current line,The last position in the current line
+
+^ : The first non-whitespace character in the current line
+
+
++,- :The first non-whitespace character in the next line,The first non-whitespace character in the previous line
+
+n| :The n-th column in the current row
+
+H :Screen top line
+
+M :Screen middle line
+
+L :Screen the last line
+
+nH: From the top screen to the n-th row
+
+nL :The top of the screen n-th row from the end
+
+
+CTRL-F :Scroll forward one screen
+
+CTRL-B :Scroll back one screen
+
+CTRL-D:Scroll down the screen by as much as half
+
+CTRL-U:Scroll up the screen as much as by half
+
+CTRL-E:Show more than one row at the bottom of the screen
+
+CTRL-Y:It shows one or more lines on the screen
+
+z RETURN: Line goes up,the screen cursor is positioned
+
+z. :The cursor line is arranged in the middle of the screen in
+
+z- :The cursor goes down the line in the screen
+
+CTRL-L:Scroll the screen shows no
+
+
+/pattern:As you progress in the future pattern search
+
+?pattern:Back proceed with the search pattern
+
+n :As it progresses forward to repeat last search details
+
+N :Repeat the last search for information and proceed back
+
+/ :Repeat move forward while the search for information on the previous
+
+? :While going through repeated searches for information on the previous back
+
+fx :Search and proceed to the next character x on the current line
+
+Fx :Search in progress, while the character x on the current line backwards
+
+tx :Search and proceed to the next character previous character x on the current line
+
+Tx :After going back and search the text of the letter x in the current row
+
+; :Repeat to retrieve the current row in the previous
+
+, :Search in the opposite direction to the previously discovered in the current row
+
+CTRL-G :It shows the current line number
+
+nG :Go to the n-th row when the row number
+
+G :Go to the last row
+
+:n :Move to the n-th row
+
+gg :Go to the very first row first
+
+
+mx :It displays the current position x
+
+`x :Move the cursor to the x
+
+`` :It goes back to the previous character and context
+
+'x :First, moverment of the line that contains the x
+
+'' :It goes back to the beginning of the line containing the previous character
+
+
+i :The insertion cursor to the previous string
+
+a :Inserted after the cursor strings 
+
+I :Insert a string at the beginning of the line
+
+A :Insert a string at the end of the line
+
+o :Insert a new line below the cursor in the string
+
+O :Insert the cursor on the new line in a string
+
+r :Changing character
+
+cw :Change a word
+
+cc :Change current line
+
+C :Change the total line
+
+R :Change overwriting characters
+
+s :Delete the character to change, and then insert a new string substitution
+
+S :Delete the current line and insert a new string substitution change
+
+
+x :Delete the following text cursor
+
+X :Cursor to delete the previous character
+
+dw :Delete the word
+
+dd :Delete the current line
+
+D :Delete the entire row
+
+p :Insertion cursor after deleting a string
+
+P :Insert the cursor before deleting a string
+
+yw :Copying words
+
+yy :Copying current line
+
+ZZ :Save the file and exit
+
+:x :Save the file and exit
+
+:wq :Save the file and exit
+
+:w :Save the file
+
+:w! :Save the file unconditionally
+
+q :Closing files
+
+q! :File unconditional exit
+
+
+
+ 
+
